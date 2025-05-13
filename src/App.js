@@ -2,11 +2,11 @@ import React from "react";
 
 const App = () => {
   return (
-    <div className="h-screen w-full bg-[url('/background.png')] bg-cover bg-center flex justify-center items-center">
-      <div className="circle border-[#00000040] absolute top-[30px] left-[300px] rounded-full border-[35px] w-[250px] h-[250px]"></div>
+    <div className="max-h-screen h-screen  w-full bg-[url('/background.png')] bg-cover bg-center flex justify-center items-center">
+      <div className="circle hidden md:block border-[#00000040] absolute top-[30px] left-[300px] rounded-full border-[35px] w-[250px] h-[250px]"></div>
       <div className="absolute inset-0 bg-black/40"></div>
 
-      <div className="w-2/5 h-3/5 drop-shadow-lg inset-0 bg-white/30 text-[#FFFFFF]   p-12 space-y-5 rounded-2xl ">
+      <div className="w-2/3 md:w-1/2 lg-2/5 drop-shadow-lg inset-0 bg-white/30 text-[#FFFFFF]   p-12 space-y-5 rounded-2xl ">
         <h3 className="text-center font-bold drop-shadow-lg text-[30px]  ">
           LOGIN
         </h3>
